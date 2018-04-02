@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Desktop-Startprogramm</string>
+    <string name="app_dial">Dialer</string>
+    <string name="app_mms">SMS</string>
+    <string name="app_camera">Kamera</string>
+    <string name="app_setting">Stellen Sie ein</string>
+    <string name="app_gallery">Galerie</string>
+    <string name="app_step">Schritt für Schritt</string>
+    <string name="app_volume">Musik</string>
+    <string name="app_heart">Herzfrequenz</string>
+    <string name="app_blue">Bluetooth</string>
+    <string name="app_calendar">Kalender</string>
+    <string name="app_calcutor">Rechner</string>
+    <string name="app_record">Recorder</string>
+    <string name="app_file_manager">Dateiverwaltung</string>
+    <string name="app_clock">Uhr</string>
+    <string name="app_chrome">Chrome</string>
+    <string name="app_google">Google</string>
+    <string name="app_playstore">Playstore</string>
+    <string name="app_whatsapp">Whatsapp</string>
+    <string name="empty_content">Leere Nachricht</string>
+    <string name="clcock_skin_loadind">Laden...</string>
+    <string name="clcock_skin_loader_error">Ladefehler</string>
+    <string name="wait_moment">Bitte warte</string>
+    <string name="scan_to_bind">Scan-Bindung</string>
+
+    <string name="bt_settings_title">An / aus</string>
+    <string name="bt_settings_state">Bluetooth-Status</string>
+    <string name="bt_state">Verbindungsstatus</string>
+    <string name="bt_name">Name:</string>
+    <string name="bt_address">Adresse:</string>
+    <string name="bluetooth_item">Bluetooth</string>
+    <string name="mms_item">SMS</string>
+    <string name="notification_item">Hinweis</string>
+    <string name="phone_item">Telefon</string>
+    <string name="turn_on">Öffnen</string>
+    <string name="turn_off">Aus</string>
+
+
+    <string name="title_notification">Hinweis</string>
+    <string name="title_mms">SMS</string>
+    <string name="no_sim">Nicht eingelegte Karte</string>
+</resources>

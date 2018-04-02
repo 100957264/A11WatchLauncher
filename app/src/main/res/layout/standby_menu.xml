@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_sysui_gride_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#990e0e0e">
+
+    <RelativeLayout
+        android:id="@+id/menu_statusbar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_status_bg"
+        android:gravity="center_vertical">
+
+        <include layout="@layout/fise_standby_statusbar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_statusbar_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_sysui_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:src="@drawable/ic_light" />
+
+        <ImageView
+            android:id="@+id/iv_sysui_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_sysui_light"
+            android:clickable="true"
+            android:src="@drawable/ic_sos" />
+
+        <ImageView
+            android:id="@+id/iv_sysui_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/iv_sysui_light"
+            android:layout_below="@id/iv_sysui_light"
+            android:clickable="true"
+            android:src="@drawable/ic_voice" />
+
+        <ImageView
+            android:id="@+id/iv_sysui_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/iv_sysui_set"
+            android:layout_alignTop="@id/iv_sysui_voice"
+            android:clickable="true"
+            android:src="@drawable/ic_clean" />
+    </RelativeLayout>
+</RelativeLayout>

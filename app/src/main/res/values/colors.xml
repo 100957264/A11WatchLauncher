@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_white">#FFF</color>
+    <color name="color_black">#000</color>
+    <color name="color_gray">#ABA8A6</color>
+    <color name="hint_color">#616163</color>
+    <!-- card activity -->
+    <color name="alt_path_bottom_color">#182c44</color>
+    <color name="alt_path_top_color">#4dd2b1</color>
+    <color name="air_pressure_path_bottom_color">#182c44</color>
+    <color name="air_pressure_path_top_color">#316de3</color>
+</resources>

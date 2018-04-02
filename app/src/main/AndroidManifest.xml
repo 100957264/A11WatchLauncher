@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fise.feng.com.beautifulwatchlauncher"
+    android:sharedUserId="android.uid.system"
+   >
+
+
+    <!-- 弹框 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 音频相关 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- 摄像头相关 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- 电话相关 -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+
+
+    <!-- 蓝牙 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 读写 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- 手机设置 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- GPS权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <application
+        android:name="fise.feng.com.beautifulwatchlauncher.KApplicationContext"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.BeautifulWatchLauncherActivity"
+            android:launchMode="singleTask"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.ClockSelectActivity"></activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.BluetoothActivity"></activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.ClockSkinChooseActivity"></activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.ServiceActivity"/>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.ItemSettingsActivity"/>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.AppsListActivity"></activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.SOSEditActivity"></activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.AddSOSContactActivity"></activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.PressureActivity"></activity>
+        <activity android:name="fise.feng.com.beautifulwatchlauncher.aty.CompassActivity"></activity>
+        <receiver android:name="fise.feng.com.beautifulwatchlauncher.receiver.BluetoothReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="fise.feng.com.beautifulwatchlauncher.service.BluetoothManagerService"
+            ></service>
+
+        <receiver android:name="fise.feng.com.beautifulwatchlauncher.receiver.NetworkTypeReceiver">
+            <intent-filter>
+                <action android:name="com.fise.intent.ACTION_NETWORK_TYPE" />
+                <action android:name="com.fise.intent.ACTION_NO_SIM" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="fise.feng.com.beautifulwatchlauncher.receiver.WifiStateReceiver">
+        <intent-filter>
+            <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            <action android:name="android.net.wifi.STATE_CHANGE" />
+            <action android:name="android.net.wifi.RSSI_CHANGED" />
+        </intent-filter>
+        </receiver>
+
+        <receiver android:name="fise.feng.com.beautifulwatchlauncher.receiver.VolteStateReceiver">
+            <intent-filter>
+                <action android:name="fise.intent.ACTION_VOLTE_ENABLE" />
+                <action android:name="fise.intent.ACTION_VOLTE_DISENABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.SOSCallReceiver">
+            <intent-filter>
+                <action android:name="fise.intent.action.SOS_CALL" /> <!-- 关机键长按五秒SOS广播 -->
+                <action android:name="com.fise.intent.ACTION_CALL_CONNECTED" /> <!-- 电话已接通广播 -->
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <action android:name="com.fise.intent.ACTION_HANGUP_CAUSE" /> <!-- 挂断原因(主叫方挂断 被叫方挂断 无人接听) -->
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

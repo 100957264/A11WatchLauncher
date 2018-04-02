@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	1	:	晴
+	2	:	雨
+	3	:	阴天
+	4	:	雾
+	5	:	雪
+
+-->
+<drawables>
+	<image>clock_skin_weather_sunny.png</image>
+	<image>clock_skin_weather_rainstorm.png</image>
+	<image>clock_skin_weather_cloudy.png</image>
+	<image>clock_skin_weather_fog.png</image>
+	<image>clock_skin_weather_snow.png</image>
+	
+</drawables>

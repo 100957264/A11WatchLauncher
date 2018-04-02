@@ -1,0 +1,139 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">BeautifulWatchLauncher</string>
+    <string name="app_dial">Dialer</string>
+    <string name="app_mms">Mms</string>
+    <string name="app_camera">Camera</string>
+    <string name="app_setting">Settings</string>
+    <string name="app_gallery">Gallery</string>
+    <string name="app_step">StepCounter</string>
+    <string name="app_volume">Music</string>
+    <string name="app_heart">Heartrate</string>
+    <string name="app_blue">Bluetooth</string>
+    <string name="app_calendar">Calendar</string>
+    <string name="app_calcutor">Calcutor</string>
+    <string name="app_record">Recorder</string>
+    <string name="app_file_manager">File Manager</string>
+    <string name="app_clock">Stopwatch</string>
+    <string name="app_chrome">Chrome</string>
+    <string name="app_google">Google</string>
+    <string name="app_playstore">Playstore</string>
+    <string name="app_whatsapp">Whatsapp</string>
+    <string name="app_browser">Browser</string>
+    <string name="app_weather">Weather</string>
+    <string name="app_download">Download</string>
+    <string name="app_list">More Apps</string>
+    <string name="app_pressure">Barometer</string>
+    <string name="app_voice_search">Voice Search</string>
+    <string name="empty_content">Empty Message</string>
+    <string name="clcock_skin_loadind">Clock Skin Loadding...</string>
+    <string name="clcock_skin_loader_error">Clock Skin Loader Error</string>
+    <string name="wait_moment">Wait a moment</string>
+    <string name="scan_to_bind">Scan To Bind</string>
+
+    <string name="bt_settings_title">Turn on / off</string>
+    <string name="bt_settings_state">Bluetooth State Details</string>
+    <string name="bt_state">SOCKET STATE</string>
+    <string name="bt_name">Name:</string>
+    <string name="bt_address">Address:</string>
+    <string name="bluetooth_item">Bluetooth</string>
+    <string name="mms_item">Mms</string>
+    <string name="notification_item">Notification</string>
+    <string name="phone_item">Phone</string>
+    <string name="turn_on">On</string>
+    <string name="turn_off">Off</string>
+
+
+    <string name="title_notification">Notification</string>
+    <string name="title_mms">Mms</string>
+    <string name="no_sim">No SIM</string>
+    <string name="bind_qr_code">Bind</string>
+    <string name="download_qr_code">Download</string>
+    <string name="app_empty">No APP</string>
+
+    <string name="previous_call_not_over">Please later, the last call is not over</string>
+
+    <string name="contact_name">Name:</string>
+    <string name="contact_number">Number:</string>
+    <string name="number_hint">13788888888</string>
+    <string name="name_hint">Kitty</string>
+    <string name="commit">Commit</string>
+    <string name="add_sos_number">Edit To Add SOS Number</string>
+    <string name="add_sos_from_contact">Add SOS From Contact</string>
+    <string name="no_sos_number">Not Find SOS Number</string>
+
+    <string name="app_uv_name">UV Index</string>
+    <string name="app_alt_name">Altitude</string>
+    <string name="app_air_pressure_name">Air Pressure</string>
+    <string name="app_compass_name">Compass</string>
+    <string name="app_step_count_name">Steps</string>
+
+    <string name="current_uv_index_text">Current UV Index</string>
+    <string name="recent_uv_text">24h UV Changes</string>
+
+    <string name="current_air_pressure_index_text">Current Air Pressure</string>
+    <string name="recent_air_pressure_text">24h Air Pressure Changes</string>
+
+    <string name="current_alt_index_text">Current Alt</string>
+    <string name="recent_alt_text">24h Alt Changes</string>
+
+    <string name="compass_location_text">Click To Open GPS \n And Get Location</string>
+    <string name="compass_locating">Getting  Location Information</string>
+    <string name="compass_gps_good_text">Getting  Location Information</string>
+    <string name="compass_gps_bad_text">Signal Difference Please Later</string>
+    <string name="compass_current_location_text">Current Location</string>
+    <string name="compass_gps_north">°N</string>
+    <string name="compass_gps_south">°S</string>
+    <string name="compass_gps_west">°W</string>
+    <string name="compass_gps_east">°E</string>
+    <string name="compass_degree">°</string>
+    <string name="compass_calibration">Wrist Rotation \n And Calibration</string>
+    <string name="compass_calibration_success">Calibration Successed</string>
+    <string name="card_compass">Compass</string>
+
+    <string name="card_uvray">Uvray</string>
+    <string name="card_uvray_title_text">UV</string>
+    <string name="card_uvray_index_text_low">Low</string>
+    <string name="card_uvray_index_text_normal">Normal</string>
+    <string name="card_uvray_index_text_high">Heigh</string>
+    <string name="card_uvray_index_text_very_heigh">Very Heigh</string>
+    <string name="card_uvray_index_text_strong">Strong</string>
+
+    <string name="alt_unit">M</string>
+    <string name="pressure_unit">hPa</string>
+    <string name="temp_unit">°C</string>
+
+    <string name="today_steps">Today Steps</string>
+
+    <string name="sleep_deep">Deep</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_all">All Time</string>
+    <string name="sleep_unit">h</string>
+
+
+    <string name="sunny_1">Sunny</string>
+    <string name="sunny_2">Mostly Sunny</string>
+    <string name="sunny_3">Partly Sunny</string>
+    <string name="sunny_4">Clear</string>
+    <string name="sunny_5">Mostly Clear</string>
+
+    <string name="cloudy_1">Cloudy</string>
+    <string name="cloudy_2">Partly Cloudy</string>
+    <string name="cloudy_3">Mostly Cloudy</string>
+
+    <string name="rain_1">Thunderstorms</string>
+    <string name="rain_2">Rain</string>
+    <string name="rain_3">Showers</string>
+    <string name="rain_4">Scattered Thunderstorms</string>
+    <string name="rain_5">Scattered Showers</string>
+
+    <string name="windy_1">Windy</string>
+    <string name="windy_2">Partly Windy</string>
+    <string name="windy_3">Mostly Windy</string>
+    <string name="windy_4">Breezy</string>
+
+    <string name="snow_1">Snow</string>
+    <string name="snow_2">Partly Snow</string>
+    <string name="snow_3">Mostly Snow</string>
+</resources>

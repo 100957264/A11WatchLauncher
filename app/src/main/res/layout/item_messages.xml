@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/item_message_bg">
+
+    <ImageView
+        android:id="@+id/item_message_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_message_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_message_icon"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/color_white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/item_message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_alignBaseline="@id/item_message_title"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/color_white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/item_message_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/item_message_title"
+        android:layout_below="@id/item_message_title"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/color_white"
+        android:textSize="11sp" />
+
+</RelativeLayout>

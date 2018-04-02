@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_activity"
+    android:background="@drawable/background"
+    tools:context="android.feng.com.beautifulwatchlauncher.fise.feng.com.beautifulwatchlauncher.aty.BeautifulWatchLauncherActivity">
+
+
+    <!--left-->
+    <fise.feng.com.beautifulwatchlauncher.view.VerticalViewPager
+        android:id="@+id/vertical_view_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </fise.feng.com.beautifulwatchlauncher.view.VerticalViewPager>
+
+
+</FrameLayout>

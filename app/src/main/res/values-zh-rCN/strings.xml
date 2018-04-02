@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">桌面启动器</string>
+    <string name="app_dial">拨号器</string>
+    <string name="app_mms">短信</string>
+    <string name="app_camera">照相机</string>
+    <string name="app_setting">设置</string>
+    <string name="app_gallery">图库</string>
+    <string name="app_step">计步</string>
+    <string name="app_volume">音乐</string>
+    <string name="app_heart">心率</string>
+    <string name="app_blue">蓝牙</string>
+    <string name="app_calendar">日历</string>
+    <string name="app_calcutor">计算器</string>
+    <string name="app_record">录音机</string>
+    <string name="app_file_manager">文件管理</string>
+    <string name="app_clock">秒表</string>
+    <string name="app_chrome">Chrome</string>
+    <string name="app_browser">浏览器</string>
+    <string name="app_google">Google</string>
+    <string name="app_playstore">谷歌商店</string>
+    <string name="app_whatsapp">Whatsapp</string>
+    <string name="app_weather">天气</string>
+    <string name="app_download">下载</string>
+    <string name="app_pressure">气压计</string>
+    <string name="app_list">更多应用</string>
+    <string name="app_voice_search">语音搜索</string>
+    <string name="empty_content">空消息</string>
+    <string name="clcock_skin_loadind">正在加载中...</string>
+    <string name="clcock_skin_loader_error">加载程序错误</string>
+    <string name="wait_moment">请稍等</string>
+    <string name="scan_to_bind">扫描绑定</string>
+
+    <string name="bt_settings_title">开/关</string>
+    <string name="bt_settings_state">蓝牙状态</string>
+    <string name="bt_state">连接状态</string>
+    <string name="bt_name">名字:</string>
+    <string name="bt_address">地址:</string>
+    <string name="bluetooth_item">蓝牙</string>
+    <string name="mms_item">短信</string>
+    <string name="notification_item">通知</string>
+    <string name="phone_item">电话</string>
+    <string name="turn_on">开</string>
+    <string name="turn_off">关</string>
+
+
+    <string name="title_notification">通知</string>
+    <string name="title_mms">短信</string>
+    <string name="no_sim">未插卡</string>
+    <string name="bind_qr_code">绑定二维码</string>
+    <string name="download_qr_code">下载二维码</string>
+    <string name="scan_to_download">扫描下载</string>
+    <string name="app_empty">无应用</string>
+    <string name="previous_call_not_over">请稍候，正在通话中...</string>
+    <string name="contact_name">姓名:</string>
+    <string name="contact_number">号码:</string>
+    <string name="number_hint">13788888888</string>
+    <string name="name_hint">凯蒂</string>
+    <string name="commit">提交</string>
+    <string name="add_sos_number">编辑添加SOS号码</string>
+    <string name="add_sos_from_contact">从联系人选择</string>
+    <string name="no_sos_number">没有添加SOS号码</string>
+</resources>

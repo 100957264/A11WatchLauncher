@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Iniciador de escritorio</string>
+    <string name="app_dial">Marcador</string>
+    <string name="app_mms">SMS</string>
+    <string name="app_camera">Cámara</string>
+    <string name="app_setting">Establecer</string>
+    <string name="app_gallery">Galería</string>
+    <string name="app_step">Paso a paso</string>
+    <string name="app_volume">Música</string>
+    <string name="app_heart">Frecuencia cardíaca</string>
+    <string name="app_blue">Bluetooth</string>
+    <string name="app_calendar">Calendario</string>
+    <string name="app_calcutor">Calculadora</string>
+    <string name="app_record">Grabador</string>
+    <string name="app_file_manager">Administración de archivos</string>
+    <string name="app_clock">Reloj</string>
+    <string name="app_chrome">Chrome</string>
+    <string name="app_google">Google</string>
+    <string name="app_playstore">Playstore</string>
+    <string name="app_whatsapp">Whatsapp</string>
+    <string name="empty_content">Mensaje vacío</string>
+    <string name="clcock_skin_loadind">Cargando...</string>
+    <string name="clcock_skin_loader_error">Error de cargador</string>
+    <string name="wait_moment">Por favor espere</string>
+    <string name="scan_to_bind">Escaneo vinculante</string>
+
+    <string name="bt_settings_title">Encendido / apagado</string>
+    <string name="bt_settings_state">Estado de Bluetooth</string>
+    <string name="bt_state">Estado de la conexión</string>
+    <string name="bt_name">Nombre:</string>
+    <string name="bt_address">Dirección:</string>
+    <string name="bluetooth_item">Bluetooth</string>
+    <string name="mms_item">SMS</string>
+    <string name="notification_item">Aviso</string>
+    <string name="phone_item">Teléfono</string>
+    <string name="turn_on">Abierto</string>
+    <string name="turn_off">Apagado</string>
+
+
+    <string name="title_notification">Aviso</string>
+    <string name="title_mms">SMS</string>
+    <string name="no_sim">Tarjeta no insertada</string>
+</resources>

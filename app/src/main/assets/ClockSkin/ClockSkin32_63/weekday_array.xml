@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 周日、周一-->
+<drawables> 
+	<child_folder>weekday_array</child_folder>
+	<image>weekday_array1.png</image>
+	<image>weekday_array2.png</image>
+	<image>weekday_array3.png</image>
+	<image>weekday_array4.png</image>
+	<image>weekday_array5.png</image>
+	<image>weekday_array6.png</image>
+	<image>weekday_array7.png</image>
+</drawables>

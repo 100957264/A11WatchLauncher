@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Desktop Launcher</string>
+    <string name="app_dial">Dialer</string>
+    <string name="app_mms">SMS</string>
+    <string name="app_camera">macchina fotografica</string>
+    <string name="app_setting">impostare</string>
+    <string name="app_gallery">galleria</string>
+    <string name="app_step">Passo dopo passo</string>
+    <string name="app_volume">musica</string>
+    <string name="app_heart">Frequenza cardiaca</string>
+    <string name="app_blue">Bluetooth</string>
+    <string name="app_calendar">calendario</string>
+    <string name="app_calcutor">calcolatrice</string>
+    <string name="app_record">registratore</string>
+    <string name="app_file_manager">Gestione dei file</string>
+    <string name="app_clock">orologio</string>
+    <string name="app_chrome">Chrome</string>
+    <string name="app_google">Google</string>
+    <string name="app_playstore">Playstore</string>
+    <string name="app_whatsapp">Whatsapp</string>
+    <string name="empty_content">Messaggio vuoto</string>
+    <string name="clcock_skin_loadind">Caricamento in...</string>
+    <string name="clcock_skin_loader_error">Errore del caricatore</string>
+    <string name="wait_moment">Per favore aspetta</string>
+    <string name="scan_to_bind">Scansione associazione</string>
+
+    <string name="bt_settings_title">On / off</string>
+    <string name="bt_settings_state">Stato Bluetooth</string>
+    <string name="bt_state">Stato della connessione</string>
+    <string name="bt_name">nome:</string>
+    <string name="bt_address">indirizzo:</string>
+    <string name="bluetooth_item">Bluetooth</string>
+    <string name="mms_item">SMS</string>
+    <string name="notification_item">preavviso</string>
+    <string name="phone_item">telefono</string>
+    <string name="turn_on">aperto</string>
+    <string name="turn_off">chiudere</string>
+
+
+    <string name="title_notification">preavviso</string>
+    <string name="title_mms">SMS</string>
+    <string name="no_sim">Carta non inserita</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	1	:	晴天
+	2	:	雨天
+	3	:	阴天
+	4	:	刮风天
+	5	:	下雪
+-->
+<drawables> 
+	<child_folder>weather_array</child_folder>
+	<image>1.png</image>
+	<image>2.png</image>
+	<image>3.png</image>
+	<image>4.png</image>
+	<image>5.png</image>
+</drawables>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Töölaua käivitaja</string>
+    <string name="app_dial">Helistaja</string>
+    <string name="app_mms">SMS</string>
+    <string name="app_camera">Kaamera</string>
+    <string name="app_setting">Seatud</string>
+    <string name="app_gallery">Galerii</string>
+    <string name="app_step">Samm-sammult</string>
+    <string name="app_volume">Muusika</string>
+    <string name="app_heart">Südame löögisagedus</string>
+    <string name="app_blue">Bluetooth</string>
+    <string name="app_calendar">Kalender</string>
+    <string name="app_calcutor">Kalkulaator</string>
+    <string name="app_record">Salvestaja</string>
+    <string name="app_file_manager">Failihaldus</string>
+    <string name="app_clock">Kell</string>
+    <string name="app_chrome">Chrome</string>
+    <string name="app_google">Google</string>
+    <string name="app_playstore">Playstore</string>
+    <string name="app_whatsapp">Whatsapp</string>
+    <string name="empty_content">Tühi sõnum</string>
+    <string name="clcock_skin_loadind">Laadimine...</string>
+    <string name="clcock_skin_loader_error">Laaduri viga</string>
+    <string name="wait_moment">Palun oodake</string>
+    <string name="scan_to_bind">Scan siduv</string>
+
+    <string name="bt_settings_title">Sisse / välja lülitatud</string>
+    <string name="bt_settings_state">Bluetoothi olek</string>
+    <string name="bt_state">Ühenduse olek</string>
+    <string name="bt_name">Nimi:</string>
+    <string name="bt_address">Aadress:</string>
+    <string name="bluetooth_item">Bluetooth</string>
+    <string name="mms_item">SMS</string>
+    <string name="notification_item">Teade</string>
+    <string name="phone_item">Telefon</string>
+    <string name="turn_on">Avatud</string>
+    <string name="turn_off">Väljas</string>
+
+
+    <string name="title_notification">Teade</string>
+    <string name="title_mms">SMS</string>
+    <string name="no_sim">Pole sisestatud kaarti</string>
+</resources>

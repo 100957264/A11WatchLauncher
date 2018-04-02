@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fise.feng.com.beautifulwatchlauncher.view.MutilDrawView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drag_view_group"
+    tools:context="fise.feng.com.beautifulwatchlauncher.aty.BeautifulWatchLauncherActivity">
+
+    <!--content-->
+    <RelativeLayout
+        android:id="@+id/fise_launcher_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <!--left-->
+    <!--<FrameLayout-->
+        <!--android:id="@+id/id_container_left"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;-->
+    <!--</FrameLayout>-->
+    <include layout="@layout/standby_menu" />
+
+
+</fise.feng.com.beautifulwatchlauncher.view.MutilDrawView>
